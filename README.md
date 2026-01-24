@@ -29,7 +29,7 @@ To test test this project locally you can follow these steps:
 2. Run http-server to run a local server from the main
 3. Enter the docs directory which will launch the index.html
 
-?[!WARNING]
+>[!WARNING]
 > You may encounter caching issues. If this is the case clear the cache for the localhost page that you're using to test the redoc page locally.
 
 ## Credits
