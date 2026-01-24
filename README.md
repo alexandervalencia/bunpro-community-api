@@ -23,5 +23,14 @@ This project aims to:
 - Enable community developers to build tools and integrations
 - Maintain up-to-date API documentation as the platform evolves
 
+## Local Testing How To
+To test test this project locally you can follow these steps:
+1. Run the command `redocly lint spec/frontend.yaml` to first lint the project and check the YAML is valid
+2. Run http-server to run a local server from the main
+3. Enter the docs directory which will launch the index.html
+
+?[!WARNING]
+> You may encounter caching issues. If this is the case clear the cache for the localhost page that you're using to test the redoc page locally.
+
 ## Credits
 highliuk: [Bunpro Postman Collection](https://www.postman.com/technical-meteorologist-63813544/bunpro-api/collection/a7eufz9/bunpro-frontend-api) ([ref](https://community.bunpro.jp/t/bunpro-api-when/100574))
